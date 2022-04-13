@@ -93,10 +93,9 @@ img {
   font-size: 24px;
   color: #f9faf8;
 }
-/* Middle Section */
+/* Middle "Random" Section */
 .mid-container {
   display: flex;
-
   gap: 20px;
   padding: 50px 100px;
 }
@@ -119,7 +118,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 100px;
+  padding: 100px 80px;
 }
 .quote p {
   width: 70%;
@@ -135,6 +134,7 @@ img {
   justify-content: flex-end;
   font-size: 18px;
   font-weight: bold;
+  margin-top: 20px;
 }
 /* CTA Section ********/
 .cta {
