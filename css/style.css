@@ -25,8 +25,7 @@ img {
   max-width: 100%;
 }
 
-/************************ */
-/* Navigation */
+/* Navigation ***/
 .header {
   display: flex;
   justify-content: space-between;
@@ -45,8 +44,7 @@ img {
   font-size: 12px;
 }
 
-/********************************/
-/* Typography */
+/* Typography ***/
 .awesome__col h2 {
   font-size: 48px;
   font-family: "Roboto", sans-serif;
@@ -66,10 +64,12 @@ img {
 .awesome__col p {
   margin-bottom: 20px;
 }
-/* Sections */
+
+/* General for All Sections ***/
 .sections {
   padding: 25px 150px;
 }
+
 /**** Hero ***/
 .hero {
   background-color: #1f2937;
@@ -93,17 +93,19 @@ img {
   flex-basis: 400px;
 }
 
-/* Middle "Random" Section */
+/* Middle "Random" Section ***/
 .box-container {
   display: flex;
   gap: 20px;
-  padding: 50px 100px;
+  padding: 50px 0;
+  margin-bottom: 50px;
 }
 .box {
-  width: 150px;
-  min-height: 150px;
+  /* width: 100px; */
+  /* min-height: 150px; */
 }
 .random__title {
+  margin-top: 50px;
   text-align: center;
 }
 .box-col {
@@ -120,7 +122,8 @@ img {
 .city {
   font-weight: 700;
 }
-/* Quote Section *****/
+
+/* Quote Section ***/
 .quote {
   display: flex;
   flex-direction: column;
@@ -144,7 +147,7 @@ img {
   margin-top: 20px;
 }
 
-/* CTA Section ********/
+/* CTA Section ***/
 .cta {
   display: flex;
   justify-content: space-around;
@@ -168,7 +171,8 @@ img {
   border-radius: 5px;
   font-size: 11px;
 }
-/* Footer ********* */
+
+/* Footer ***/
 .footer {
   background-color: #1f2937;
   color: #e5e7eb;
