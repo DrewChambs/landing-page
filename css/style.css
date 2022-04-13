@@ -24,30 +24,7 @@ a {
 img {
   max-width: 100%;
 }
-/* Hero ***/
-.sections {
-  padding: 25px 150px;
-}
-.hero {
-  background-color: #1f2937;
-  padding: 25px 150px;
-}
-.header__awesome {
-  display: flex;
-  margin-top: 50px;
-  justify-content: space-between;
-}
-.awe1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 15px;
-  flex: 1 1 0;
-}
-.awe2 {
-  flex: 1 1 0;
-}
+
 /************************ */
 /* Navigation */
 .header {
@@ -67,14 +44,7 @@ img {
   border-radius: 5px;
   font-size: 12px;
 }
-.btnSign2 {
-  background-color: #3882f6;
-  border: 2px solid;
-  color: #f9faf8;
-  padding: 0 2em;
-  border-radius: 5px;
-  font-size: 11px;
-}
+
 /********************************/
 /* Typography */
 .awesome__col h2 {
@@ -93,27 +63,64 @@ img {
   font-size: 24px;
   color: #f9faf8;
 }
+.awesome__col p {
+  margin-bottom: 20px;
+}
+/* Sections */
+.sections {
+  padding: 25px 150px;
+}
+/**** Hero ***/
+.hero {
+  background-color: #1f2937;
+  padding: 25px 150px;
+}
+.header__awesome {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  gap: 20px;
+}
+.awesome-1 {
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  flex-basis: 50%;
+}
+.awesome-2 {
+  flex-basis: 400px;
+}
+
 /* Middle "Random" Section */
-.mid-container {
+.box-container {
   display: flex;
   gap: 20px;
   padding: 50px 100px;
 }
-.mid-con-divs {
+.box {
   width: 150px;
-  height: 150px;
-  border: 3px solid rgb(70, 130, 180);
-  border-radius: 10px;
+  min-height: 150px;
 }
 .random__title {
   text-align: center;
 }
-.col-mid {
+.box-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
   text-align: center;
 }
-
+.porto__img {
+  border: 3px solid rgb(70, 130, 180);
+  border-radius: 5px;
+}
+.city {
+  font-weight: 700;
+}
 /* Quote Section *****/
-
 .quote {
   display: flex;
   flex-direction: column;
@@ -136,6 +143,7 @@ img {
   font-weight: bold;
   margin-top: 20px;
 }
+
 /* CTA Section ********/
 .cta {
   display: flex;
@@ -150,6 +158,15 @@ img {
 }
 .section__last {
   padding: 100px 150px;
+}
+.btnSign2 {
+  background-color: #3882f6;
+  border: 2px solid;
+  color: #f9faf8;
+  padding: 0 2em;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 11px;
 }
 /* Footer ********* */
 .footer {
