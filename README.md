@@ -1,5 +1,5 @@
 # landing-page webpage - The Odin Project Application
-Part of a series of appplications, and various web projects, from The Odin Project.
+Part of a series of applications, and various web projects, from The Odin Project.
 
 The task is to create a landing page. This is after completing initial CSS and
 Flexbox readings.
